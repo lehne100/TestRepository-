@@ -1,0 +1,312 @@
+Bibliography
+Midlife in the United States: Core Sample Mortality Data, 1995-2023
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 37237. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Allende, Santiago; Bayley, Peter J., "Estimating survival in data-driven
+phenotypes of mental health symptoms and peripheral biomarkers: A
+prospective study." Brain, Behavior, and Immunity - Health. Aug 2024, 39,
+(100815),. DOI: 10.1016/j.bbih.2024.100815
+
+2. Atherton, Olivia E., "Are there place-based disparities in mortality
+risk? Findings from two longitudinal studies." Health Psychology. In press
+2024,. DOI: 10.1037/hea0001379
+
+3. Bertele, Nina; Karabatsiakis, Alexander; Talmon, Anat; Buss, Claudia,
+"Biochemical clusters predict mortality and reported inability to work 10
+years later." Brain, Behavior, and Immunity - Health. 2022, 21,. DOI:
+10.1016/j.bbih.2022.100432
+
+4.
+
+5. Bourassa, Kyle J., "Financial stressors during the Great Recession and
+subsequent risk of early mortality." Psychosomatic Medicine. In press
+2021,. DOI: 10.1097/PSY.0000000000000943
+
+6. Bourassa, Kyle J.; Moffitt, Terrie E.; Harrington, HonaLee; Houts,
+Renate; Poulton, Richie; Ramrakha, Sandhya; Caspi, Avshalom, "Lower
+cardiovascular reactivity is associated with more childhood adversity and
+poorer midlife health: Replicated findings from the Dunedin and MIDUS
+cohorts." Clinical Psychological Science. Sep 2021, 9, (5), 961 - 978. DOI:
+10.1177/2167702621993900
+
+7. Boylan, Jennifer M.; Biggane, Christianne; Shaffer, Jonathan A.; Wilson,
+Caitlyn L.; Vagnini, Kaitlyn M.; Masters, Kevin S., "Do purpose in life and
+social support mediate the association between religiousness/spirituality
+and mortality? Evidence from the MIDUS national sample." International
+Journal of Environmental Research and Public Health. 2023, 20, (12), 6112.
+DOI: 10.3390/ijerph20126112
+
+8. Carbone, Jason T.; Holzer, Katherine J.; Clift, Jennifer; Fu, Qiang,
+"Latent profiles of biological dysregulation and risk of mortality: Time-
+to-event analysis using the Midlife in the US longitudinal study." Journal
+of Epidemiology and Community Health. Mar 2023, 77, (3), 182. DOI:
+10.1136/jech-2021-218073
+
+9. Chen, Edith; Lam, Phoebe H.; Finegood, Eric D.; Turiano, Nicholas A.;
+Mroczek, Daniel K.; Miller, Gregory E., "The balance of giving versus
+receiving social support and all-cause mortality in a US national sample."
+Proceedings of the National Academy of Sciences of the United States of
+America. 2021, 118, (24), e2024770118. DOI: 10.1073/pnas.2024770118
+
+10. Cintron, Dakota W.; Ong, Anthony D., "Trajectories of affective well-
+being and survival in middle-aged and older adults." Emotion. In press
+2024,. DOI: 10.1037/emo0001341
+
+11. Curtis, Aisling; Kirwan, Emma M.; Luchetti, Martina; Creaven, Ann-
+Marie; Turiano, Nicholas; McGeehan, Máire; Graham, Eileen K.;
+O’Súilleabháin, Páraic S., "Loneliness links adverse childhood experiences
+to mortality risk across 26 years." Journals of Gerontology, Series B:
+Psychological Sciences and Social Sciences. Jun 2025, 80, (6), gbaf016.
+DOI: 10.1093/geronb/gbaf016
+
+12. Delaney, R.; Turiano, N.A.; Strough, J., "The Association Between
+Advice Seeking and Mortality Risk: Better to Be Independent or Dependent?
+[poster]." Presented at the 2015 Annual Meeting of the Gerontological
+Society of America (GSA), Gerontological Society of America (GSA), Orlando,
+FL, Nov 18-22, 2015. DOI: 10.1093/geront/gnv192.20
+
+13. Finegood, Eric D.; Briley, Daniel A.; Turiano, Nicholas A.; Freedman,
+Alexa; South, Susan C.; Krueger, Robert F.; Chen, Edith; Mroczek, Daniel
+K.; Miller, Gregory E., "Association of wealth with longevity in US adults
+at midlife." JAMA Health Forum. 2021, 2, (7), e211652. DOI:
+10.1001/jamahealthforum.2021.1652
+
+14. Friedman, Elliot M.; Teas, Elizabeth, "Self-rated health and mortality:
+Moderation by purpose in life." International Journal of Environmental
+Research and Public Health. 2023, 20, (12), 6171. DOI:
+10.3390/ijerph20126171
+
+15. Glei, D.A.; Weinstein, M., "Daily exposure to stressors, daily
+perceived severity of stress, and mortality risk among US adults." PLOS
+One. 2024, 19, (5), e0303266. DOI: 10.1371/journal.pone.0303266
+
+16. Glei, Dana A.; Lee, Chioun; Brown, Casey L.; Weinstein, Maxine, "Are
+employment and social integration more strongly associated with deaths of
+despair than psychological or economic distress?." Social Science and
+Medicine. Sep 2024, 357,. DOI: 10.1016/j.socscimed.2024.117197
+
+17. Glei, Dana A.; Lee, Chioun; Weinstein, Maxine, "Assessment of mortality
+disparities by wealth relative to other measures of socioeconomic status
+among US adults." JAMA Network Open. Apr 2022, 5, (4), e226547. DOI:
+10.1001/jamanetworkopen.2022.6547
+
+18. Glei, Dana A.; Lee, Chioun; Weinstein, Maxine, "Socioeconomic
+disparities in U.S. mortality: The role of smoking and alcohol/drug abuse."
+SSM - Population Health. Dec 2020, 12, (100699),. DOI:
+10.1016/j.ssmph.2020.100699
+
+19. Glei, Dana A.; Mendes de Leon, Carlos F.; Lee, Chioun; Weinstein,
+Maxine, "Cognition and mortality risk among midlife and older Americans."
+Journals of Gerontology, Series A: Biological Sciences and Medical
+Sciences. Jul 2023, 78, (7), 1204 - 1211. DOI: 10.1093/gerona/glad085
+
+20.
+
+21. Glei, Dana A.; Weinstein, Maxine, "In the midst of a pandemic, more
+introverted individuals may have a mortality advantage." Dialogues in
+Health. Dec 2023, 2, (100087),. DOI: 10.1016/j.dialog.2022.100087
+
+22. Gonzalez-Mule, Erik; Cockburn, Bethany S., "This job is (literally)
+killing me: A moderated-mediated model linking work characteristics to
+mortality." Journal of Applied Psychology. In press 2020,. DOI:
+10.1037/apl0000501
+
+23. Jarczok, Marc N.; Koenig, Julian; Thayer, Julian F., "Lower values of a
+novel index of Vagal-Neuroimmunomodulation are associated to higher all-
+cause mortality in two large general population samples with 18 year follow
+up." Scientific Reports. 2021, 11, (2554),. DOI: 10.1038/s41598-021-82168-6
+
+24. Jarczok, Marc N.; Weimer, Katja; Braun, Christin; Williams, DeWayne P.;
+Thayer, Julian F.; Gündel, Harald O.; Balint, Elisabeth M., "Heart rate
+variability in the prediction of mortality: A systematic review and meta-
+analysis of healthy and patient populations." Neuroscience and
+Biobehavioral Reviews. Dec 2022, 143, (104907),. DOI:
+10.1016/j.neubiorev.2022.104907
+
+25. Jokela, Markus; Pulkki-Raback, Laura; Elovainio, Marko; Batty, G.
+David; Kivimaki, Mika, "Personality and cardiovascular mortality risk: A
+multi-cohort analysis in individuals with and without pre-existing
+cardiovascular disease." Journal of Behavioral Medicine. Feb 2025, 48, (1),
+111 - 119. DOI: 10.1007/s10865-024-00528-9
+
+26. Kim, Hyunsik, "Internalizing Psychopathology and All-Cause Mortality: A
+Comparison of Transdiagnostic and Diagnosis-Based Prediction."
+Dissertation, State University of New York at Stony Brook, 2020.
+
+27. Kim, Hyunsik; Turiano, Nicholas A.; Forbes, Miriam K.; Kotov, Roman;
+Krueger, Robert F.; Eaton, Nicholas R., "Internalizing psychopathology and
+all-cause mortality: A comparison of transdiagnostic vs. diagnosis-based
+risk prediction." World Psychiatry. Jun 2021, 20, (2), 276 - 282. DOI:
+10.1002/wps.20859
+
+28. Landes, Scott D.; Piazza, Jennifer R., "Age differences in long-term
+mortality among male nonveterans, noncombat veterans, and combat veterans."
+Journal of Traumatic Stress. Oct 2023, 36, (5), 907 - 918. DOI:
+10.1002/jts.22956
+
+29. Lee, Soomi; Mu, Christina X.; Wallace, Meredith L.; Andel, Ross;
+Almeida, David M.; Buxton, Orfeu M.; Patel, Sanjay R., "Multidimensional
+sleep health problems across middle and older adulthood predict early
+mortality." Journals of Gerontology, Series A: Biological Sciences and
+Medical Sciences. Mar 2024, 79, (3),. DOI: 10.1093/gerona/glad258
+
+30. Martela, Frank; Laitinen, Elmeri; Hakulinen, Christian, "Which predicts
+longevity better: Satisfaction with life or purpose in life?." Psychology
+and Aging. In press 2024,. DOI: 10.1037/pag0000802
+
+31. Matthews, Timothy A.; Chen, Liwei; Li, Jian, "Increased job strain and
+cardiovascular disease mortality: A prospective cohort study in U.S.
+workers." Industrial Health. Jul 2023, 61, (4), 250 - 259. DOI:
+10.2486/indhealth.2021-0233
+
+32. Matthews, Timothy Alan, "Adverse Childhood Experiences, Job Strain,
+Social Isolation, and Risk of Cardiovascular Disease in U.S. Workers: A
+Multi-Cohort Study with a Life-Course Perspective." Dissertation,
+University of California, Los Angeles, 2023.
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+33. Miller, Sara; Almeida, David; Maggs, Jennifer, "Problem Drinking
+Predicts Functional Health and Mortality Risk 10 Years Later in the MIDUS
+Study [poster]." Presented at the Gerontological Association of America
+(GSA) 2020 Annual Scientific Meeting [virtual], Gerontological Association
+of America (GSA), Nov 4-7, 2020. DOI: 10.1093/geroni/igaa057.1300
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+34. Ng, Amanda E.; Gruenewald, Tara; Juster, Robert-Paul; Trudel-
+Fitzgerald, Claudia, "Affect regulation and mortality risk: The role of
+allostatic load." Biopsychosocial Science and Medicine. In press 2025,.
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+35. Ng, Amanda E.; Gruenewald, Tara; Juster, Robert-Paul; Trudel-
+Fitzgerald, Claudia, "Affect regulation and mortality risk: The role of
+allostatic load." Biopsychosocial Science and Medicine. May 2025, 87, (4),
+259 - 270. DOI: 10.1097/PSY.0000000000001378
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+36. Nishimi, Kristen M.; Koenen, Karestan C.; Coull, Brent A.; Chen,
+Ruijia; Kubzansky, Laura D., "Psychological resilience predicting
+cardiometabolic conditions in adulthood in the Midlife in the United States
+Study." Proceedings of the National Academy of Sciences of the United
+States of America. Aug 10, 2021, 118, (32), e2102619118. DOI:
+10.1073/pnas.2102619118
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+37. O'Leary, Daniel, "Socioeconomic Status, Negative Affect, and Health."
+Dissertation, Stanford University, 2020.
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+38. O'Leary, Daniel; Uysal, Ahmet; Rehkopf, David H.; Gross, James J.,
+"Subjective social status and physical health: The role of negative affect
+and reappraisal." Social Science and Medicine. Dec 2021, 291, (114272),.
+DOI: 10.1016/j.socscimed.2021.114272
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+39. O'Suilleabhain, Paraic S.; D'Arcy-Bewick, Sinead; Fredrix, Milou;
+McGeehan, Maire; Kirwan, Emma; Willard, Meredith; Sesker, Amanda A.; Sutin,
+Angelina R.; Turiano, Nicholas A., "Self-acceptance and purpose in life are
+mechanisms linking adverse childhood experiences to mortality risk."
+Psychosomatic Medicine. Feb-Mar 2024, 86, (2), 83 - 88. DOI:
+10.1097/PSY.0000000000001266
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+40. O'Suilleabhain, Paraic S.; Turiano, Nicholas A.; Gerstorf, Denis;
+Luchetti, Martina; Gallagher, Stephen; Sesker, Amanda A.; Terracciano,
+Antonio; Sutin, Angelina R., "Personality pathways to mortality:
+Interleukin-6 links conscientiousness to mortality risk." Brain, Behavior,
+and Immunity. Mar 2021, 93, 238 - 244. DOI: 10.1016/j.bbi.2021.01.032
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+41. Otaiku, Abidemi, "Distressing Dreams and Risk of Premature Mortality: A
+Population-based Multicohort Study (S6.008)." Presented at the American
+Academy of Neurology 77th Annual Meeting, American Academy of Neurology,
+San Diego, CA, Apr 5-9, 2025. DOI: 10.1212/WNL.0000000000211829
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+42. Park, Yoobin; Guimond, Anne-Josee; Crosswell, Alexandra D.; Kubzansky,
+Laura D., "Associations of global and specific components of positive
+psychological well-being with mortality risk: Findings from two cohort
+studies." Applied Psychology: Health and Well-Being. In press 2024,. DOI:
+10.1111/aphw.12576
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+43. Rodgers, Justin; Cuevas, Adolfo G.; Williams, David R.; Kawachi,
+Ichiro; Subramanian, S.V., "The relative contributions of behavioral,
+biological, and psychological risk factors in the association between
+psychosocial stress and all-cause mortality among middle- and older-aged
+adults in the USA." GeroScience. Apr 2021, 43, (2), 655 - 672. DOI:
+10.1007/s11357-020-00319-5
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+44. Song, Jieun; Kang, Sohyun; Ryff, Carol D., "Unpacking psychological
+vulnerabilities in deaths of despair." International Journal of
+Environmental Research and Public Health. 2023, 20, (15), 6480. DOI:
+10.3390/ijerph20156480
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+45. Turiano, N.A.; Silva, N.M.; Mehta, P.S.; Spears, S., "Control Beliefs
+and Longevity: Analysis of Level and Change." Presented at the 21st
+International Association of Gerontology and Geriatrics (IAGG) World
+Congress, International Association of Gerontology and Geriatrics (IAGG),
+San Francisco, CA, Jul 23-27, 2017. DOI: 10.1093/geroni/igx004.1019
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+46. Turiano, Nicholas A.; Graham, Eileen K.; Weston, Sara; Booth, Tom;
+Harrison, Fleur, James, Bryan D.; Lewis, Nathan A.; Makkar, Steven R.;
+Mueller, Swantje; Wisniewski, Kristi M.; Zhaoyang, Ruixue; Willis, Sherry;
+Schaie, K. Warner; Lipton, Richard B.; Katz, Mindy; Sliwinski, Martin;
+Deary, Ian J.; Zelinski, Elizabeth M.; Bennett, David A.; Sachdev,
+Perminder S.; Brodaty, Henry; Trollor, Julian N.; Ames, David; Wright,
+Margaret J.; Gerstorf, Denis; Muniz-Terrera, Graciela; Piccinin, Andrea M.;
+Hofer, Scott M. Mroczek, Daniel K., "Is healthy neuroticism associated with
+longevity? A coordinated integrative data analysis." Collabra: Psychology.
+2020, 6, (1), 33. DOI: 10.1525/collabra.268
+Full text: https://escholarship.org/uc/item/0gs4x517
+
+47. Walker, Rebekah J.; Garacci, Emma; Campbell, Jennifer A.; Egede,
+Leonard E., "The Influence of Daily Stress on Glycemic Control and
+Mortality in Adults with Diabetes [poster]." Presented at the American
+Diabetes Association 78th Scientific Sessions, American Diabetes
+Association, Orlando, FL, Jun 22-26, 2018. 852-P
+Abstract: https://ada.scientificposters.com/epsAbstractADA.cfm?id=1
+
+48. Walker, Rebekah J.; Garacci, Emma; Campbell, Jennifer A.; Egede,
+Leonard E., "The influence of daily stress on glycemic control and
+mortality in adults with diabetes." Journal of Behavioral Medicine. Oct
+2020, 43, (5), 723 - 731. DOI: 10.1007/s10865-019-00109-1
+Abstract: https://ada.scientificposters.com/epsAbstractADA.cfm?id=1
+
+49. Wiley, J.F., "Lifespan Trajectories of Sleep Quality Predict Mortality
+in the Midlife in the United States Study." Presented at the 31st Annual
+Meeting of the Associated Professional Sleep Societies, LLC, Associated
+Professional Sleep Societies, LLC, Boston, MA, Jun 3-7, 2017. DOI:
+10.1093/sleepj/zsx050.759 0760
+Abstract: https://ada.scientificposters.com/epsAbstractADA.cfm?id=1
+
+50. Willroth, Emily C.; Pfund, Gabrielle N.; Mroczek, Daniel K.; Hill,
+Patrick L., "Perceptions of a good life: Associations with culture, age,
+wellbeing, and health." European Journal of Personality. In press 2023,.
+DOI: 10.1177/08902070231186344
+Abstract: https://ada.scientificposters.com/epsAbstractADA.cfm?id=1
+
+51. Yin, Han; Gao, Zihan; Jia, Mengyang; Jiang, Cheng; Wang, Yuanhao; Xue,
+Dahui; Huang, Jingnan; Feng, Huhao; Jin, Nana; Liu, Jingjin; Cheng, Lixin;
+Geng, Qingshan, "Diminished salivary cortisol response to mental stress
+predict all-cause mortality in general population." Journal of
+Psychosomatic Research. Feb 2025, 189, (112031),. DOI:
+10.1016/j.jpsychores.2024.112031
+Abstract: https://ada.scientificposters.com/epsAbstractADA.cfm?id=1
+
+52. Zhavoronkov, Alex; Kochetov, Kirill; Diamandis, Peter; Mitina, Maria,
+"PsychoAge and SubjAge: Development of deep markers of psychological and
+subjective age using artificial intelligence." Aging. Dec 2020, 12, (23),
+23548 - 23577. DOI: 10.18632/aging.202344
+Abstract: https://ada.scientificposters.com/epsAbstractADA.cfm?id=1

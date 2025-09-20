@@ -1,0 +1,73 @@
+File Manifest for ICPSR 37237
+
+Ryff, Carol D., David Almeida, John Z. Ayanian, Neil Binkley, Deborah S.
+Carr, Christopher Coe, Richard J. Davidson, Joseph G. Grzywacz, Arun
+Karlamangla, Robert F. Krueger, Margie E. Lachman, Gayle Love, Marsha
+Mailick Seltzer, Daniel K. Mroczek, Barry Radler, Teresa E. Seeman, Richard
+P. Sloan, Duncan Thomas, Maxine Weinstein, and David R. Williams. Midlife
+in the United States: Core Sample Mortality Data, 1995-2023. ICPSR37237-v6.
+Ann Arbor, MI: Inter-university Consortium for Political and Social
+Research [distributor], 2025-07-10. http://doi.org/10.3886/ICPSR37237.v6
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37237-descriptioncitation.pdf       -       -         -       2025-07-10  -
+
+    37237-related_literature.txt        -       -         -       daily       -
+
+    37237-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Midlife in the United States: Core Sample Mortality Data, 1995-2023
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    37237-0001-Codebook-ICPSR.epub      -       -         -       2025-07-10  ce2cc054535373b498d6b2195a07cb66
+
+    37237-0001-Codebook-ICPSR.pdf       -       -         -       2025-07-10  75d18d74f05374f89ee5961358ae95ae
+
+    37237-0001-Codebook-MIDUS_DDI.pdf   -       -         -       2025-07-10  91aae718cbb1a99d3a9e72e78a8a0a84
+
+    37237-0001-Data.dta                 -       2,533     55      2025-07-10  cb2d1b17ccdb9ae1fe4cf6f1ff290bd1
+
+    37237-0001-Data.rda                 -       2,533     55      2025-07-10  e9009713d52261f2fcf010c384c49132
+
+    37237-0001-Data.sav                 -       2,533     55      2025-07-10  0803b2f5eaeb333a1c9be088bf31e55f
+
+    37237-0001-Data.stc                 -       2,533     55      2025-07-10  663cdc922d536857a8ed081a7e28aab0
+
+    37237-0001-Data.tsv                 -       2,533     55      2025-07-10  a2c192cb1ac47512ac0d7d9f60e39e7c
+
+    37237-0001-Data.txt                 390     2,533     55      2025-07-10  491e3f36e09dd200165e9c66c76eba7d
+
+    37237-0001-Documentation-documentation_of_mortality.pdf -       -         -       2025-07-10  49484131dbcfbf381ebad9496382fa40
+
+    37237-0001-Setup.dct                -       -         -       2025-07-10  2f7eaabd0a0b934af922201e07c4d6c3
+
+    37237-0001-Setup.do                 -       -         -       2025-07-10  090e58f55a506befdb0e93046ab26a1c
+
+    37237-0001-Setup.sas                -       -         -       2025-07-10  9ffdf6c37902ea711babd109aec463d5
+
+    37237-0001-Setup.sps                -       -         -       2025-07-10  a5d731cffa7e37c9f94655e00e490f9e
+
+    37237-0001-Supplemental_syntax.do   -       -         -       2025-07-10  2bb688209131ca4496c8267df3efced1
+
+    37237-0001-Supplemental_syntax.sas  -       -         -       2025-07-10  8d1636bc8d876112de75acd401d80691
+
+
+Version History
+
+2025-07-10 The data and documentation have been updated to reflect
+additional mortality cases from 2023.  2025-02-12 The data and
+documentation have been updated to reflect additional cases, as well as
+some new computed variables related to cause of death.  2023-02-06 The
+study title, data, and documentation have been updated.  2020-04-28 The
+study title, data, and documentation have been updated.  2019-09-12 The
+collection title has been updated.
