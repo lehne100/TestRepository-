@@ -1,0 +1,752 @@
+---
+title: "PSY 4802 Notes (2025-09-22)"
+output: html_document
+date: "2025-09-23"
+---
+---
+title: "4802 Notes (2025-09-16)"
+output: html_document
+date: "2025-09-16"
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+---
+title: "Foundations in R part 1"
+author: "Amanda Mae Woodward"
+date: "2025-09-16"
+output: html_document
+---
+
+# Learning Outcomes:
+
+After Today's Lecture, you should be able to do the following: -
+Evaluate mathematical expressions and logical statements in R - Describe
+how to use common R functions - Explain the differences between
+variables, vectors, and dataframes - Explain how to obtain a subset of
+your data - Describe your data effectively
+
+# Panels of R Studio
+
+## top left: R Markdown
+
+-   where we put stuff we want to save
+
+## top right global environment:
+
+-   has everything (overview)
+-   contains variables, datasets, vectors, functions
+
+## bottom left: console
+
+-   where code runs (see output here depending on settings) - errors
+-   scratch paper (doesnt save)
+-   `install.packages()` & `View()`
+
+## bottom right:everything else
+
+**Disclaimer:** I am not a computer programmer. I occasionally use
+programming words and may use them incorrectly (feel free to correct
+me!). I prefer to use words like "thing" and "stuff." If it gets
+confusing, just let me know.
+
+### code chunks
+
+text goes outside
+
+```{r}
+# code -> insert chunk
+# Mac: command + option + i --> I like to use this one
+# pc: control + alt+i
+# manual
+```
+
+## Learning Outcome 1: Mathematical Expressions and Logical Statements
+
+### Math
+
+R can be treated like a big fancy calculator (think scientific
+calculators you may have used previously), but can do much more.
+
+#### Addition
+
+```{r}
+#code = number + number (command + return on mac runs the code)
+4+9
+```
+
+#### Subtraction
+
+```{r}
+#code = number - number (command + return)
+7-5
+```
+
+#### Multiplication
+
+```{r}
+#code = number*number
+426*315
+```
+
+#### Division
+
+```{r}
+#code = number/number
+67435/162
+```
+
+#### Square Root
+
+`sqrt()`
+
+```{r}
+#code = sqrt(number)
+sqrt(27463)
+```
+
+#### Exponent
+
+```{r}
+#code = number^number
+452^4
+```
+
+**Important:** In terms of calculations, R follows PEMDAS (algebra
+throwback). Parentheses are going to be **Really** important.
+
+#### More complicated Math:
+*uses PEMDAS*
+
+```{r}
+(3+5)^6
+3+5*6
+```
+
+### Logical Statements
+
+We're going to go through logical statements because they can be helpful
+when wrangling/cleaning data.
+
+First, what's a logical statement? It evaluates whether an expression is
+TRUE or FALSE
+
+Consider the following sentence:
+
+"Michael Scott on *the Office* is a good manager"
+
+If this sentence was a fact, R would output the word "TRUE." If it was
+not true, R would output the word "FALSE."
+
+To assess whether logical statements in R are true, we use two equal
+signs `==`. The above example would look something like this:
+
+
+
+```{r}
+#code = "thing1" == "thing 2" --> is value on the right the same as the value on the left
+"michael scott" == "good manager"
+```
+
+Running this code tells us the statement is false. (**Note**: this is
+because the phrase on the left is not the same as the one on the
+right..as far as I know, R hasn't watched *the Office*).
+
+```{r}
+#code= "thing1" == "thing2" OR number == number 
+
+3 == 4
+2*6 == 3*4
+
+```
+
+However, R can compute mathematical expressions. This means we can look
+at something like this:
+
+```{r}
+3 == 4
+2*6 == 3*4
+```
+
+You can also evaluate if statements are **NOT** True. We can do this by
+using the symbol `!=` For instance, I could evaluate Michael Scott as a
+manager by writing:
+
+```{r}
+#code = "thing1" != "thing2" OR number != number
+
+"michael scott" != "good manager"
+
+```
+
+Note: In other words, == is similar to "is" and != is similar to "is
+not"
+
+A similar process can be used to determine if something is greater than,
+less than, greater than or equal to, and less than or equal to.
+**Aside:** I use these a lot to clean developmental data
+
+Examples:
+
+```{r}
+#code = number< number (For greater than, just swap the "<" for ">")
+54< 26
+54< 87
+
+#less than or equal to code = number <= number (For greater than or equal to, just swap the "<" for ">")
+54<=67
+54<=34
+```
+
+We can also make logical statements more complex by creating **and** and
+**or** statements.(And- both things need to be true Or- only one has to
+be true)
+
+And statements use `&` OR `&&` (if you have more things to evaluate)
+
+```{r}
+#code = number sign number & number sign number 
+
+3+5 == 8 & 32>41
+3+5 ==8 && 32>41 && 21<67
+
+
+```
+
+Or statements use `|` OR `||` (if you have more things to evaluate)
+
+```{r}
+#code= number sign number | number sign number 
+
+3+4==8 | 32<42
+32<33 || 3-6==2 || 21-7==14
+```
+
+##### Learning Outcome 1 Practice:
+
+1.  Find the square root of 89
+
+```{r}
+sqrt(89)
+```
+
+2.  Determine if 3 raised to the 5 power is greater than the square root
+    of ten thousand
+
+```{r}
+3^5>sqrt(10000)
+```
+
+3.  Determine if 5 times 7 is less than or equal to 30 or if 4\*8 is
+    equal to 32
+
+```{r}
+5*7<=30 | 4*8==32
+```
+
+### Learning Outcome 2: Describe how to use common R functions
+
+A note on R functions: R has built in functions that help us create,
+manipulate, and transform our data. Generally, we use functions by
+writing the function name followed by parentheses. We'll talk about more
+of them throughout this lesson, and during the semester. Here are some
+that are just generally helpful.
+
+If you want to learn more about a function, you can type `?` function
+name in the console.
+
+The first one we'll talk about is `:`. Typically, it would be used by
+writing small#:larger#, and would give you all of the numbers in
+between.
+
+```{r}
+#code = small number : large nunmber --> looks at all numbers from a:b
+
+1:100
+100:1
+```
+
+`rep()` allows you to repeat something a set number of times. Looking at
+the help file, we can see the arguments contained in the function. To
+use it, we write `rep(thingToBeRepeated, #ofTimes)`.
+
+```{r}
+#code rep(number you want to repeat, times you want to repeat it) OR rep("word you want to repeat", times you want to repeat it)
+
+rep(15, 7)
+rep("salt", 5)
+```
+
+**Note:** For functions, you can either write arguments in the order
+listed in the help file (not labelled), or make sure you include the
+argument label.
+
+```{r}
+#rep(number OR "word", times = the amount of times you want to repeat)
+rep(x=12, times = 2)
+rep(x="bag", times = 4)
+```
+
+`seq()` gives you a sequence of numbers. typically, we use it by writing
+`seq(lowest#, highest#, by=#)`.
+
+```{r}
+#seq(lowest#, highest#, by=#) --> don't have to write "by, could just use a comma 
+```
+
+#### Learning Outcome 2 Practice:
+
+1.  Print every 5th number between 1 and 100.
+
+```{r}
+seq(1,100,5)
+```
+
+2.  Use code to write I love statistics 4 times.
+
+```{r}
+rep("I love statistics", 4)
+```
+
+3.  Repeat the numbers 1-10 twice
+
+```{r}
+rep(seq(1,10),2)
+```
+
+4.  Print every 3rd number from 1-20 3 times.
+
+```{r}
+rep(seq(1,20,3),3)
+```
+
+###Learning Outcome 3: Explain the differences between variables,
+vectors, and dataframes
+
+What's the problem with using R as a big, fancy calculator? We haven't
+stored anything so we could use it later. Different things that we will
+need later have different names, but we store them in the same way
+
+nameItsBeingSavedAs \<- thingBeingSaved
+
+nameThing = thingSaved #DO NOT DO THIS
+
+**Note:** the "assignment operator" (less than sign followed by the
+hyphen; I was taught to call it a carrot) should be used over an equal
+sign. There are a lot of reasons for this, but the main one is that R is
+finicky and different updates and packages read "=" differently, so \<-
+is safest.
+
+Naming conventions: I was taught to use all lower case for the first
+word, and capital letters for each word after. That's what I'll use in
+class. However, you can use whatever convention you want. But a couple
+of things to keep in mind:
+
+-   R objects (things) can't have spaces in the name
+-   R is case sensitive (statistics, Statistics, StAtIsTiCs are all read
+    as three different things)
+-   Don't give your stored stuff names that are the same as R functions
+    (e.g. no naming dataframes "data" or saving something as "mean")
+-   Make sure your names mean something (slgahwgh may help you get our
+    your frustration out- but you won't remember what it means later and
+    neither will your collaborators)
+
+**Variables**
+
+Variables store one thing in R (it can be a number, a word, or whatever
+you want)
+
+```{r}
+#code = variableName <- thingBeingSaved
+# DO NOT DO: VariableName = thingBeingSaved
+friut <- "blurberries"
+coffeeConsumes <- 0
+```
+
+\*Aside: `c()` means combine. you can put stuff in parentheses and use a
+comma to separate it and have it print together
+
+**Vectors**
+
+Vectors are objects that store one dimensional information
+
+To save more than one thing in an R variable, you would use the combine
+function- `c()`.
+
+```{r}
+"numeric"
+#code =  vectorName<- c(data value, data value, data value, ect.)
+darkMatter<- c(0,0,0,1,0,4,3)
+"character"
+#cosde = vectorName<- c("data point", "data point", "data point", etc.)
+firstNames<- c("Rachael", "Tori", "Sam", "Amanda")
+```
+
+If you want to call one of the things you saved in a vector, you can
+write `vectorName[position of thing]`
+
+```{r}
+#cade = vectorName[position of thing you want]
+firstNames[3]
+```
+
+**Dataframes** Data frames are made from multiple vectors. There are
+preloaded datasets in R we can use to practice, such as mtcars:
+
+```{r}
+#code = data(mtcars)
+data(mtcars)
+```
+
+**2025-09-18**
+### Practice:
+
+1)Make a vector with 6 animals
+
+```{r}
+Animals<- c("Jaguar", "Quetzal", "Turkey", "Wolf", "Chinchilla", "Armadillo")
+```
+
+2)Make a vector of the number of cookies you think each animal could eat
+
+```{r}
+animalCookies<- c(20,3,9,18,1,7)
+```
+
+We can also combine vectors into a dataframe using R functions
+(`cbind.data.frame()` or `rbind.data.frame()`). We'll use the vectors we
+made above as an example.
+
+```{r}
+# code = dataName<- cbind.data.frame(vector1, vector2) -- puts things in columns 
+cookieData<- cbind.data.frame(Animals, animalCookies)
+
+#code = dataName<- rbind.data.frame(vector1, vector2) -- puts things in rows
+cookie2Data<- rbind.data.frame(Animals, animalCookies)
+```
+
+Just like you can pick one thing in a vector, you can select one column
+or one row in a dataframe. You can use brackets like we did with
+vectors, but you need to specify whether it's a row or a column. If it's
+a column, you can write `dataframe[,column#]` and you can use
+`dataframe[row#,]`.
+
+```{r}
+cookieData[,1] #gives you the first columns
+cookieData[1,] #gives you the first row
+cookieData[5,2] # gives you a single cell (x position in row, y position in column)
+
+```
+
+You can also get columns by using a `$`.
+
+```{r}
+#code = dataName$Variable of interst
+cookieData$Animals
+
+```
+
+#### Learning Outcome 3 Practice:
+
+1.  Create a variable that contains your favorite ice cream flavor
+
+```{r}
+favIceCream <- "Mint Chocolate Chip"
+```
+
+2.  Create two vectors: 1 vector should contain the names of four TV
+    shows and the 2nd vector should contain your ratings for those shows
+
+```{r}
+favTVShows<- c("Attack on Titan", "Jujutsu Kaisen", "Modern Family", "Stranger Things")
+showRatings<- c(5,5,5,5)
+```
+
+3.  Make these vectors into a data frame.
+
+```{r}
+TVdata<- cbind.data.frame(favTVShows, showRatings)
+```
+
+4.  Print the information in the 2nd row.
+
+```{r}
+TVdata[2,]
+```
+
+5.  Print the information in the 2nd column.
+
+```{r}
+TVdata[,2]
+```
+
+Bonus: Print the information in the 3rd row, 1st column.
+
+```{r}
+TVdata[3,2]
+```
+
+###Learning Outcome 4: Explain how to obtain a subset of your data
+
+Sometimes, you don't need a full dataframe, you just want to use a piece
+of it. To do this, we can use subsetting or indexing to save just that
+piece.
+
+**Indexing** We'll started with indexing because it is similar to what
+we did above. You can write dataframeName[logical statement] to get a
+portion of the data.
+
+For instance, we could use indexing to get only cars in the mtcars
+dataset with 4 gears.
+
+```{r}
+#code = dataset[dataset$variable == thing of interest,] -- use the , for the column info too
+mtcars[mtcars$gear==4,]
+
+#make a new data set
+#code = new dataset <- dataset[dataset$variable == thing of interest,]
+fourGears<- mtcars[mtcars$gear==4,]
+```
+
+In this case, you'll notice that I put a comma after the logical
+statement. This is because we want all of the **rows** where the car has
+4 gears.
+
+**Subsetting** We can also use the subsetting function to create a new
+dataframe. We can look at the subset function by typing ?subset in the
+console. We use this function by `subset(dataframe, logical statement)`
+
+If we wanted to get the same subset of data as above, we could do the
+following:`subset(dataframe, condition)`
+
+```{r}
+#five gears and 6 cyl
+#code = dataName<- subset(data, data$variable== What you want the vairble limit to be) #Note: you can use other logical fundtion like greater than or equal to (>=) as well as add additional varibles using the & sign
+fiveGearSixCyl<- subset(mtcars, mtcars$gear== 5 & mtcars$cyl==6)
+fiveGearSixCyl
+```
+
+**Subsetting Practice**
+```{r}
+TwentyFiveMps<- subset(mtcars, mtcars$mpg < 25)
+AutoTrans<- subset(mtcars, mtcars$am<1)
+oneHundredHpFourGr<- subset(mtcars, mtcars$hp>=100 & mtcars$gear==4)
+```
+
+can combine logical statements in all the ways we talked about before
+
+**A Note on Pipes (more advanced)** If not, we're going to talk about
+another way to get a subset of data from our dataframe.
+
+Above, we used indexing and subsetting to make new dataframes that
+contain only the information we need. You can also use something called
+pipes to create a subset (For those who use tidyverse). A pipe, or `%>%`
+is another way to program in R. It takes whatever is on the left and
+"feeds" it to the function on the right. So the data goes through a
+pipeline to get you the desired outcome.
+
+First, we need to load a package. Package libraries have lots of
+functions made by really smart people to make our lives easier. To load
+a package, you need to first use the following code in the console:
+`install.packages("packageName")`
+
+After that, we need to use the library command to load the package
+
+```{r}
+#code = install.packages("Name of Package you want")
+#install.packages("tidyverse")
+library(tidyverse)
+```
+
+
+**2025-09-23**
+We can use filter and select to subset data with pipes.
+
+We can use `filter()` to pick a subset of rows:
+
+```{r}
+#code = subsetName <- dataset %>% filter(variableOfInterest EquationSign VariableLimit)
+#Note: can do the %>% by comand+shit+m
+gears<- mtcars %>% filter(gear==5)
+```
+
+We can use `select()` to pick a subset of columns:
+
+```{r}
+#code = subsetName<- dataset %>% select(varibleOfInterst) #Note: can do many varibles inside parenthasis, just use a comma to separate
+MpgHp<- mtcars %>% select(mpg, hp)
+```
+
+```{r}
+#Note: can combine filter and select
+#code:
+#subset<- dataset %>% 
+  #filter(VariableOfInterst EquationSign VariableLimit)
+  #Select(VariableOfInterst)
+
+MpgGears<- mtcars %>% 
+  filter(gear==5) %>% 
+  select(mpg, hp)
+```
+
+#### Learning Outcome 4 Practice:
+
+1.  Load the ChickWeight dataset.
+
+```{r}
+data("ChickWeight")
+```
+
+2.  Create a subset of data that contains information for Chick 8
+
+```{r}
+ChickEight<- ChickWeight %>% filter(Chick==8)
+```
+
+3.  Create a subset of data for Diet 2 only.
+
+```{r}
+DietTwo<- ChickWeight %>% filter(Diet==2)
+```
+
+4.  Create a subset of data for all chicks weighing less than 100 gm.
+
+```{r}
+SmallChicks<- ChickWeight %>% filter(weight<100)
+```
+
+### Learning Outcome 5: Describe your data effectively
+
+We need to make sure that we can understand what our data look like
+before doing anything more complicated.
+
+**Looking at the top/bottom of your dataset** First we can view what our
+data look like using `head()` and `tail()` to see the beginning and end
+of our data. they both use a similar format
+`head(dataframe, # of rows )` We'll use the diamonds dataframe (need to
+install ggplot if you haven't already!)
+
+```{r}
+#code = head(dataset) -- gives first six rows
+#code = heat(dataset, RowNumberOfInterest) -- shows you the rows you want to see
+
+head(mtcars)
+head(mtcars,3)
+```
+
+
+```{r}
+#code = tail(dataset) -- gives you bottom six rows
+#code = tail(dataset, RowNumberOfInterest) -- shows you the rows you want to see
+
+tail(mtcars)
+tail(mtcars, 3)
+```
+
+This lets us see just part of our data to make sure it loaded
+appropriately/is what we expect.
+
+**Summary** We can also describe our data using a function called
+`summary()`.
+
+```{r}
+#code = summary(dataset)
+#can also be used on a single variable 
+#code = summary(dataset$VariableOfInterst)
+summary(mtcars)
+summary(mtcars$mpg)
+```
+
+What do you notice about the summaries?
+
+**Aside:** There are different classes(types) of data. They get
+summarized differently, and the class of data influences what functions
+you can run.
+
+There are **many** functions to summarize data, and we'll use more as
+the semester goes on.
+
+**Descriptive Statistics** We can also get descriptive statistics for
+specific columns
+
+If we need the \# of observations, we can use `length()` or `nrow()` to
+get this information.
+
+```{r}
+#code length(dataset) -- works on vectors and single variables 
+#code length(dataset$variableOfInterst)
+#nrow(dataset) -- tells you number of rows 
+#ncol(dataset) -- tells you number of columns 
+
+length(mtcars$mpg)
+length(mtcars)
+nrow(mtcars)
+ncol(mtcars)
+```
+
+We can also take the average by using the function `mean()`.
+
+```{r}
+#code = mean(dataset$Varible) -- gives the mean 
+mean(mtcars$mpg)
+```
+
+We can get the standard deviation using `sd()`.
+
+```{r}
+#code - sd(dataset#varble) -- gives typical distance from the mean 
+sd(mtcars$mpg)
+```
+
+`var()`gives us the variance
+
+```{r}
+#code var(dataset$Variable) -- gives variance (sd squared I think)
+var(mtcars$mpg)
+```
+
+`range()` gives us the range
+
+```{r}
+#code = range(dataset$Variabll) -- Gives high and low value, subtract them for the range 
+range(mtcars$mpg)
+33.9-10.4
+```
+
+###Learning Outcome 5 Practice
+
+1.  Summarize the ChickWeight dataset
+
+```{r}
+summary(ChickWeight)
+```
+
+2.  Find the mean of the weight column
+
+```{r}
+mean(ChickWeight$weight)
+```
+
+3.  Summarize the data for just the 1st chick
+
+```{r}
+ChickOne<- subset(ChickWeight, Chick==1)
+summary(ChickOne)
+#OR
+summary(ChickWeight %>% filter(Chick==1))
+
+```
+
+4.  What is the variance of the 1st chick's weight?
+
+```{r}
+var(ChickOne)
+```
+
+5.  What is the range in weight for each chick posted in the dataset?
+
+```{r}
+range(ChickWeight$weight[ChickWeight$Chick==1]) #Then copy this down but change the number 
+range(ChickWeight$weight[ChickWeight$Chick==2])
+```
