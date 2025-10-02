@@ -62,8 +62,6 @@ sixCyl<- subset(mtcars, mtcars$cyl==6,)
 
 8. Summarize this subset of data. 
 ```{r}
-install.packages("dplyr")
-library(dyplr)
 summary(sixCyl)
 ```
 
@@ -79,16 +77,54 @@ MPGdata<- subset(mtcars, mtcars$mpg>= 20)
 
 10. Load the ggplot2 library
 ```{r}
-install.packages("ggplot2")
-library(dplyr)
+library(ggplot2)
+
 ```
 
 11. Open the diamonds dataset. How do you know that you've loaded it?
 *I'm not sure how to do this one. We didn't try this one in class but I thought I'd see if I can fighure it out, but nothing I've found on the internet is working*
 ```{r}
 data(diamonds)
+#I think it's loaded becuase I can see it in my environment 
 ```
 12. Create a new dataframe that has diamonds greater than 1 carat and an ideal cut. 
+```{r}
+library(tidyverse)
+diamondsSubset<- diamonds %>% 
+  filter(cut=="ideal") %>% 
+  filter(carat>1)
+```
+
 13. Find the mean and standard deviation of price for this new dataset. 
+```{r}
+mean(diamondsSubset$price)
+#I'm not sure what I'm doing wrong here.
+```
+
 14. Create another new dataframe that includes all diamonds with a price between $2500 and $5000. 
+```{r}
+diamondPrice<- subset(diamonds, diamonds$price>=2500)
+diamondPrice2<-subset(diamondPrice, diamondPrice$price<=5000)
+```
+
 15. Which color occurs most in this new subset? 
+```{r}
+dDiamonds<- diamondPrice2 %>% 
+  filter(color=="D") # 1518 objects in dDiamonds
+eDiamonds<-diamondPrice2 %>% 
+  filter(color=="E") # 2184 objects
+fDiamonds<- diamondPrice2 %>% 
+  filter(color=="F") # 2221 objects
+gDiamonds<- diamondPrice2 %>% 
+  filter(color=="G") # 1950 objects
+hDiamonds<- diamondPrice2 %>% 
+  filter(color=="H") # 1932 objects 
+iDiamonds<- diamondPrice2 %>% 
+  filter(color=="I") # 1225 objects 
+jDiamonds<- diamondPrice2 %>% 
+  filter(color=="J") # 656 objects 
+
+#Color F appears most in this subset 
+
+```
+ 
