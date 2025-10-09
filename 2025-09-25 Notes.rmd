@@ -431,3 +431,23 @@ for(){
 ```{r}
 mtcars$trans<- ifelse(mtcars$am==0, "automatic", "manual")
 ```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+penguins$studentFavorites<- NA
+for (i in 1:nrow(penguins)) {
+  if(penguins$island[i]=="Dream"){
+    penguins$studentFavorites[i]<- "Tejiri"
+  }
+  if(penguins$island[i]=="Biscoe"){
+    penguins$studentFavorites[i]<- "Sawywer"
+  }
+  if(penguins$island[i]=="Torgersen"){
+    penguins$studentFavorites[i]<- "Rachael"
+  }
+}
+```
+
