@@ -1,0 +1,73 @@
+---
+title: "Quiz 1 - Rachael Lehner"
+output: html_document
+date: "2025-10-09"
+---
+
+
+This quiz will cover everything we've covered in foundations of R assignments.
+
+1. Open the tidyverse library.
+```{r}
+library(tidyverse)
+```
+
+2. Open the starwars dataset.
+```{r}
+data("starwars")
+```
+
+3. Create a subset of data that contains only the humans from the starwars franchise.
+```{r}
+starwarsHumans<- subset(starwars, starwars$species=="Human")
+
+```
+
+4. In this subset of data, who is the tallest character? 
+*Darth Vader -- I just looked at the data, I didn't need to run a code*
+
+
+5. In this subset of data, print the information about the character in the third row. 
+```{r}
+characterThree<- subset(starwars, starwars$name == "R2-D2")
+
+```
+```{r}
+characterThree
+```
+
+6. In the full starwars dataset, calculate the average mass for the masculine characters. 
+
+```{r}
+mascChar<- subset(starwars, starwars$gender=="masculine") #use gender 
+mean(mascChar$mass, na.rm = TRUE) 
+```
+
+7. Create a dataset that contains only the characters and the films that they appeared in from the full dataset. 
+```{r}
+filmsAndChars<- starwars %>% 
+  select(name, films)
+```
+
+8. Create a new column in the starwars dataset that contains a "ranking" of all characters (Note: you don't have to actually rank them. Just fill the column in with the numbers 1-87)
+```{r}
+rank<- sample(size = 87, 1:87, replace = TRUE)
+CharsRate<- data.frame(name = filmsAndChars$name, rank)
+filmsCharsRate<- left_join(filmsAndChars, CharsRate)
+filmsCharsRate
+```
+
+9. Create a subset of data for the characters from Naboo. How many characters are from Naboo? 
+```{r}
+Naboo<- subset(starwars, starwars$homeworld == "Naboo")
+Naboo
+#There are 11 characters from Naboo
+```
+
+10. How many droids are in the full dataset? 
+```{r}
+droids<- subset(starwars, starwars$species == "Droid")
+droids
+#6 characters are droids
+```
+
