@@ -29,9 +29,26 @@ data("starwars")
 ```
 
 6. Create homeworld as a factor. How many levels does it have? 
+
+```{r}
+homeworldFactor<- as.factor(starwars$homeworld)
+#This factor has 48 levels 
+```
+
 7. Reorder homeworld so that Naboo is the reference group. 
+```{r}
+relevel(homeworldFactor, ref = "Naboo")
+```
+
 8. Use mutate to create a column transforming kg to pounds. (hint: you may need to look up the conversion)
+```{r}
+newStarswarsDat<- starwars %>% mutate(pounds = mass*2.2)
+```
+
 9. Print a summary of your column from #8
+```{r}
+summary(newStarswarsDat$mass)
+```
 
 #Part 2
 10. open the billboard dataset.
@@ -52,3 +69,10 @@ wideBillboard<- pivot_wider(longBillboard, id_cols = c("artist", "track", "date.
 ```
 
 14. Separate the date entered column into three columns: one for year, one for month, and one for day.
+
+```{r}
+billboardSepareated<- separate(billboard, date.entered, into = c("year", "month"), sep = 5)
+billboradSepFinal<- separate(billboardSepareated, month, into = c("month", "day"), sep = 3)
+billboradSepFinal
+```
+
